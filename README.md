@@ -61,16 +61,16 @@ A cutting-edge, high-performance web application designed for **Deny Restaurant*
 ```text
 deny-restaurant/
 ├── public/                     # Aset statis & foto profil koki
-│   ├── logo.png
-│   └── staff/                  # Foto portrait 8 koki & kru
-│       ├── deny-pratama.jpg
-│       ├── marco-rossi.jpg
-│       ├── sofia-bianchi.jpg
-│       ├── david-chen.jpg
-│       ├── clara-laurent.jpg
-│       ├── elena-vance.jpg
-│       ├── julian-meyer.jpg
-│       └── aria-santos.jpg
+│   ├── logo.webp
+│   └── staff/                  # Foto portrait 8 koki & kru (Format WebP terkompresi tinggi)
+│       ├── deny-pratama.webp
+│       ├── marco-rossi.webp
+│       ├── sofia-bianchi.webp
+│       ├── david-chen.webp
+│       ├── clara-laurent.webp
+│       ├── elena-vance.webp
+│       ├── julian-meyer.webp
+│       └── aria-santos.webp
 ├── src/
 │   ├── app/                    # Next.js App Router
 │   │   ├── (pages)/

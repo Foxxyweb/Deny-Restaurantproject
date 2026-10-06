@@ -14,7 +14,7 @@ export type CategoryId =
 export type DietaryTag = "vegetarian" | "spicy" | "gluten-free";
 
 const img = (photoId: string, width = 1000) =>
-  `https://images.unsplash.com/photo-${photoId}?auto=format&fit=crop&w=${width}&q=80`;
+  `https://images.unsplash.com/photo-${photoId}?auto=format&fm=webp&fit=crop&w=${width}&q=80`;
 
 /* --- Curated Restaurant Photo IDs --- */
 const PHOTO = {
@@ -1147,7 +1147,7 @@ export const staffMembers: StaffMember[] = [
     quote: "A great plate of food needs no pretension, just honest fire, true sourdough patience, and respect for who eats it.",
     specialty: "Wood-Fired Fermentation & Charcoal Technique",
     favoriteDish: "Margherita di Bufala",
-    image: "/staff/deny-pratama.jpg",
+    image: "/staff/deny-pratama.webp",
   },
   {
     id: "marco-rossi",
@@ -1160,7 +1160,7 @@ export const staffMembers: StaffMember[] = [
     quote: "The pizza is alive. If you rush the fermentation by even three hours, the oven knows, and you taste the difference.",
     specialty: "48-Hour Cold Proofing & High-Heat Baking",
     favoriteDish: "Truffle Pepperoni",
-    image: "/staff/marco-rossi.jpg",
+    image: "/staff/marco-rossi.webp",
   },
   {
     id: "sofia-bianchi",
@@ -1173,7 +1173,7 @@ export const staffMembers: StaffMember[] = [
     quote: "A pasta machine cannot feel the elasticity of the egg yolk. Your palms and rolling pin must do the talking.",
     specialty: "30-Yolk Silk Ribbons & Braised Ragù",
     favoriteDish: "Tagliatelle al Tartufo",
-    image: "/staff/sofia-bianchi.jpg",
+    image: "/staff/sofia-bianchi.webp",
   },
   {
     id: "david-chen",
@@ -1186,7 +1186,7 @@ export const staffMembers: StaffMember[] = [
     quote: "The magic is in the sizzle and the millisecond contact with a screaming 500-degree surface.",
     specialty: "Lacy-Crust Smashes & Secret Relish Blends",
     favoriteDish: "Deny Double Smash",
-    image: "/staff/david-chen.jpg",
+    image: "/staff/david-chen.webp",
   },
   {
     id: "clara-laurent",
@@ -1199,7 +1199,7 @@ export const staffMembers: StaffMember[] = [
     quote: "Dessert is the final memory of a meal. It should be comforting, light, and leave a sweet smile.",
     specialty: "Espresso Tiramisu, Cannoli & Gelato",
     favoriteDish: "Signature Tiramisu",
-    image: "/staff/clara-laurent.jpg",
+    image: "/staff/clara-laurent.webp",
   },
   {
     id: "elena-vance",
@@ -1212,7 +1212,7 @@ export const staffMembers: StaffMember[] = [
     quote: "A drink should elevate the dish, cleansing the palate and awakening fresh flavor notes.",
     specialty: "Botanical Fermentation & Smoked Spritzers",
     favoriteDish: "Smoked Rosemary Spritz",
-    image: "/staff/elena-vance.jpg",
+    image: "/staff/elena-vance.webp",
   },
   {
     id: "julian-meyer",
@@ -1225,7 +1225,7 @@ export const staffMembers: StaffMember[] = [
     quote: "Hospitality is not about rules; it is about remembering people, smiling, and making every plate feel like home.",
     specialty: "Fast-Casual Flow & Warm Community Hospitality",
     favoriteDish: "Whipped Ricotta Crostini",
-    image: "/staff/julian-meyer.jpg",
+    image: "/staff/julian-meyer.webp",
   },
   {
     id: "aria-santos",
@@ -1238,7 +1238,7 @@ export const staffMembers: StaffMember[] = [
     quote: "Great cooking starts six weeks before the pan, out in the soil with our local farmers.",
     specialty: "Organic Sourcing & Zero-Waste Logistics",
     favoriteDish: "Burrata & Heirloom Caprese",
-    image: "/staff/aria-santos.jpg",
+    image: "/staff/aria-santos.webp",
   },
 ];
 
